@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16E183b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DateView">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="7u4-2d-eMz"/>
+                <outlet property="dateLabel" destination="Ypa-j4-2cv" id="V0S-vA-gFI"/>
+                <outlet property="leftButton" destination="NSK-fB-2Wx" id="xfm-NQ-i0Y"/>
+                <outlet property="rightButton" destination="ZtD-J5-dJS" id="eqN-2q-TUb"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ypa-j4-2cv">
+                    <rect key="frame" x="16" y="18" width="68" height="15"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZtD-J5-dJS">
+                    <rect key="frame" x="92" y="0.0" width="8" height="50"/>
+                    <connections>
+                        <action selector="rightButtonAction:" destination="-1" eventType="touchUpInside" id="Buc-gA-qLh"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NSK-fB-2Wx">
+                    <rect key="frame" x="0.0" y="0.0" width="8" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="8" id="Q51-4U-Rcw"/>
+                    </constraints>
+                    <connections>
+                        <action selector="leftButtonAction:" destination="-1" eventType="touchUpInside" id="5nD-Du-iom"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Ypa-j4-2cv" firstAttribute="leading" secondItem="NSK-fB-2Wx" secondAttribute="trailing" constant="8" symbolic="YES" id="1j9-aw-K4b"/>
+                <constraint firstItem="NSK-fB-2Wx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="22i-Id-K9N"/>
+                <constraint firstAttribute="trailing" secondItem="ZtD-J5-dJS" secondAttribute="trailing" id="6uz-vz-3aq"/>
+                <constraint firstItem="NSK-fB-2Wx" firstAttribute="top" secondItem="ZtD-J5-dJS" secondAttribute="top" id="J5T-dG-C4C"/>
+                <constraint firstItem="NSK-fB-2Wx" firstAttribute="baseline" secondItem="ZtD-J5-dJS" secondAttribute="baseline" id="b3T-oY-P79"/>
+                <constraint firstAttribute="bottom" secondItem="NSK-fB-2Wx" secondAttribute="bottom" id="hOV-A1-PAy"/>
+                <constraint firstItem="NSK-fB-2Wx" firstAttribute="centerY" secondItem="Ypa-j4-2cv" secondAttribute="centerY" id="pzu-uM-gDK"/>
+                <constraint firstItem="ZtD-J5-dJS" firstAttribute="firstBaseline" secondItem="NSK-fB-2Wx" secondAttribute="firstBaseline" id="q9H-3d-1BJ"/>
+                <constraint firstItem="NSK-fB-2Wx" firstAttribute="bottom" secondItem="ZtD-J5-dJS" secondAttribute="bottom" id="rxO-0d-cvM"/>
+                <constraint firstItem="Ypa-j4-2cv" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="tWl-mV-HAM"/>
+                <constraint firstItem="NSK-fB-2Wx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="y4F-Rn-i4P"/>
+                <constraint firstItem="ZtD-J5-dJS" firstAttribute="leading" secondItem="Ypa-j4-2cv" secondAttribute="trailing" constant="8" symbolic="YES" id="zgT-wD-874"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-29" y="-21"/>
+        </view>
+    </objects>
+</document>
