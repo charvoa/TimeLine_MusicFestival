@@ -20,7 +20,7 @@ I will create a simple Framework when I will have more time, but for now here is
 
 ViewController.m :
 
-```
+```objc
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIScrollView *eventView;
 
@@ -76,6 +76,28 @@ ViewController.m :
     */
     self.eventView.contentSize = CGSizeMake(4000, [stageArray count] * 80 + 50);
 }
+```
+
+## Delegates :
+
+With these two delegates we can handle click on each events and on each stages. We can, for example, display informations about the event in a popup (Tickets, Weather ...).
+
+ViewController.m :
+```objc
+-(void) touchesOnEventBegan:(EventView *)eventView {
+    // Do something ...
+}
+
+-(void)touchesOnStageBegan:(StageView *)stageView {
+    // Do something ...
+}
+```
+
+ViewController.h :
+```objc
+@interface ViewController : UIViewController <UIScrollViewDelegate, ClickEventDelegate>
+
+@end
 ```
 
 Explain how to run the automated tests for this system
