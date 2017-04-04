@@ -20,17 +20,17 @@
 		61631F371E8B09E000DDAC47 /* Timeline_ProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61631F361E8B09E000DDAC47 /* Timeline_ProjectUITests.m */; };
 		6174C01F1E8B1045008E0C97 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6174C01D1E8B1045008E0C97 /* EventKit.framework */; };
 		6174C0201E8B1045008E0C97 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6174C01E1E8B1045008E0C97 /* EventKitUI.framework */; };
-		6174C0221E8B28A7008E0C97 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 6174C0211E8B28A7008E0C97 /* Event.m */; };
-		6174C02A1E8B325E008E0C97 /* EventView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6174C0291E8B325E008E0C97 /* EventView.xib */; };
-		6174C02D1E8B326A008E0C97 /* EventView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6174C02C1E8B326A008E0C97 /* EventView.m */; };
-		6174C02F1E8B42BE008E0C97 /* EventManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6174C02E1E8B42BE008E0C97 /* EventManager.m */; };
-		6174C0331E8B4AE3008E0C97 /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = 6174C0321E8B4AE3008E0C97 /* Place.m */; };
-		6174C0361E8C57D9008E0C97 /* TramView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6174C0351E8C57D9008E0C97 /* TramView.xib */; };
-		6174C0391E8C581C008E0C97 /* TramView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6174C0381E8C581C008E0C97 /* TramView.m */; };
-		6174C03B1E8C5FB3008E0C97 /* StageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6174C03A1E8C5FB3008E0C97 /* StageView.xib */; };
-		6174C03E1E8C5FBB008E0C97 /* StageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6174C03D1E8C5FBB008E0C97 /* StageView.m */; };
-		61AD92B91E8D850200D8665C /* DateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61AD92B81E8D850200D8665C /* DateView.xib */; };
-		61AD92BC1E8D854500D8665C /* DateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61AD92BB1E8D854500D8665C /* DateView.m */; };
+		61C1C94C1E9367B20080755F /* DateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C1C93B1E9367B20080755F /* DateView.m */; };
+		61C1C94D1E9367B20080755F /* DateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61C1C93C1E9367B20080755F /* DateView.xib */; };
+		61C1C94E1E9367B20080755F /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C1C93E1E9367B20080755F /* Event.m */; };
+		61C1C94F1E9367B20080755F /* EventManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C1C9401E9367B20080755F /* EventManager.m */; };
+		61C1C9501E9367B20080755F /* EventView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C1C9421E9367B20080755F /* EventView.m */; };
+		61C1C9511E9367B20080755F /* EventView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61C1C9431E9367B20080755F /* EventView.xib */; };
+		61C1C9521E9367B20080755F /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C1C9451E9367B20080755F /* Place.m */; };
+		61C1C9531E9367B20080755F /* StageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C1C9471E9367B20080755F /* StageView.m */; };
+		61C1C9541E9367B20080755F /* StageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61C1C9481E9367B20080755F /* StageView.xib */; };
+		61C1C9551E9367B20080755F /* TramView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C1C94A1E9367B20080755F /* TramView.m */; };
+		61C1C9561E9367B20080755F /* TramView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61C1C94B1E9367B20080755F /* TramView.xib */; };
 		A8E665EBECB2934789F84C27 /* libPods-Timeline_ProjectUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADFAC8067EC88CAEF0D23BFC /* libPods-Timeline_ProjectUITests.a */; };
 /* End PBXBuildFile section */
 
@@ -73,24 +73,24 @@
 		61631F381E8B09E000DDAC47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6174C01D1E8B1045008E0C97 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
 		6174C01E1E8B1045008E0C97 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
-		6174C0211E8B28A7008E0C97 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
-		6174C0231E8B28CE008E0C97 /* Event.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
-		6174C0291E8B325E008E0C97 /* EventView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventView.xib; sourceTree = "<group>"; };
-		6174C02B1E8B326A008E0C97 /* EventView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventView.h; sourceTree = "<group>"; };
-		6174C02C1E8B326A008E0C97 /* EventView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventView.m; sourceTree = "<group>"; };
-		6174C02E1E8B42BE008E0C97 /* EventManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventManager.m; sourceTree = "<group>"; };
-		6174C0301E8B42C6008E0C97 /* EventManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventManager.h; sourceTree = "<group>"; };
-		6174C0321E8B4AE3008E0C97 /* Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Place.m; sourceTree = "<group>"; };
-		6174C0341E8B4AFE008E0C97 /* Place.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Place.h; sourceTree = "<group>"; };
-		6174C0351E8C57D9008E0C97 /* TramView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TramView.xib; sourceTree = "<group>"; };
-		6174C0371E8C581C008E0C97 /* TramView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TramView.h; sourceTree = "<group>"; };
-		6174C0381E8C581C008E0C97 /* TramView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TramView.m; sourceTree = "<group>"; };
-		6174C03A1E8C5FB3008E0C97 /* StageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StageView.xib; sourceTree = "<group>"; };
-		6174C03C1E8C5FBB008E0C97 /* StageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StageView.h; sourceTree = "<group>"; };
-		6174C03D1E8C5FBB008E0C97 /* StageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StageView.m; sourceTree = "<group>"; };
-		61AD92B81E8D850200D8665C /* DateView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateView.xib; sourceTree = "<group>"; };
-		61AD92BA1E8D854500D8665C /* DateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateView.h; sourceTree = "<group>"; };
-		61AD92BB1E8D854500D8665C /* DateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateView.m; sourceTree = "<group>"; };
+		61C1C93A1E9367B20080755F /* DateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateView.h; sourceTree = "<group>"; };
+		61C1C93B1E9367B20080755F /* DateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateView.m; sourceTree = "<group>"; };
+		61C1C93C1E9367B20080755F /* DateView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateView.xib; sourceTree = "<group>"; };
+		61C1C93D1E9367B20080755F /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		61C1C93E1E9367B20080755F /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		61C1C93F1E9367B20080755F /* EventManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventManager.h; sourceTree = "<group>"; };
+		61C1C9401E9367B20080755F /* EventManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventManager.m; sourceTree = "<group>"; };
+		61C1C9411E9367B20080755F /* EventView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventView.h; sourceTree = "<group>"; };
+		61C1C9421E9367B20080755F /* EventView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventView.m; sourceTree = "<group>"; };
+		61C1C9431E9367B20080755F /* EventView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventView.xib; sourceTree = "<group>"; };
+		61C1C9441E9367B20080755F /* Place.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Place.h; sourceTree = "<group>"; };
+		61C1C9451E9367B20080755F /* Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Place.m; sourceTree = "<group>"; };
+		61C1C9461E9367B20080755F /* StageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StageView.h; sourceTree = "<group>"; };
+		61C1C9471E9367B20080755F /* StageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StageView.m; sourceTree = "<group>"; };
+		61C1C9481E9367B20080755F /* StageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StageView.xib; sourceTree = "<group>"; };
+		61C1C9491E9367B20080755F /* TramView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TramView.h; sourceTree = "<group>"; };
+		61C1C94A1E9367B20080755F /* TramView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TramView.m; sourceTree = "<group>"; };
+		61C1C94B1E9367B20080755F /* TramView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TramView.xib; sourceTree = "<group>"; };
 		70D08A9E2B8341775BF9C145 /* Pods-Timeline_ProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Timeline_ProjectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Timeline_ProjectUITests/Pods-Timeline_ProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
 		74E695A0F53AD3FFFFBF4393 /* Pods-Timeline_Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Timeline_Project.release.xcconfig"; path = "Pods/Target Support Files/Pods-Timeline_Project/Pods-Timeline_Project.release.xcconfig"; sourceTree = "<group>"; };
 		ADFAC8067EC88CAEF0D23BFC /* libPods-Timeline_ProjectUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Timeline_ProjectUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -172,7 +172,7 @@
 				61631F121E8B09E000DDAC47 /* AppDelegate.m */,
 				61631F141E8B09E000DDAC47 /* ViewController.h */,
 				61631F151E8B09E000DDAC47 /* ViewController.m */,
-				6174C0311E8B4441008E0C97 /* Event */,
+				61C1C9571E9367BC0080755F /* Event */,
 				61631F171E8B09E000DDAC47 /* Main.storyboard */,
 				61631F1D1E8B09E000DDAC47 /* Assets.xcassets */,
 				61631F1F1E8B09E000DDAC47 /* LaunchScreen.storyboard */,
@@ -209,27 +209,27 @@
 			path = Timeline_ProjectUITests;
 			sourceTree = "<group>";
 		};
-		6174C0311E8B4441008E0C97 /* Event */ = {
+		61C1C9571E9367BC0080755F /* Event */ = {
 			isa = PBXGroup;
 			children = (
-				6174C02E1E8B42BE008E0C97 /* EventManager.m */,
-				6174C0301E8B42C6008E0C97 /* EventManager.h */,
-				6174C0291E8B325E008E0C97 /* EventView.xib */,
-				6174C02B1E8B326A008E0C97 /* EventView.h */,
-				6174C02C1E8B326A008E0C97 /* EventView.m */,
-				6174C03A1E8C5FB3008E0C97 /* StageView.xib */,
-				6174C03C1E8C5FBB008E0C97 /* StageView.h */,
-				6174C03D1E8C5FBB008E0C97 /* StageView.m */,
-				61AD92B81E8D850200D8665C /* DateView.xib */,
-				61AD92BA1E8D854500D8665C /* DateView.h */,
-				61AD92BB1E8D854500D8665C /* DateView.m */,
-				6174C0351E8C57D9008E0C97 /* TramView.xib */,
-				6174C0371E8C581C008E0C97 /* TramView.h */,
-				6174C0381E8C581C008E0C97 /* TramView.m */,
-				6174C0211E8B28A7008E0C97 /* Event.m */,
-				6174C0231E8B28CE008E0C97 /* Event.h */,
-				6174C0321E8B4AE3008E0C97 /* Place.m */,
-				6174C0341E8B4AFE008E0C97 /* Place.h */,
+				61C1C93A1E9367B20080755F /* DateView.h */,
+				61C1C93B1E9367B20080755F /* DateView.m */,
+				61C1C93C1E9367B20080755F /* DateView.xib */,
+				61C1C93D1E9367B20080755F /* Event.h */,
+				61C1C93E1E9367B20080755F /* Event.m */,
+				61C1C93F1E9367B20080755F /* EventManager.h */,
+				61C1C9401E9367B20080755F /* EventManager.m */,
+				61C1C9411E9367B20080755F /* EventView.h */,
+				61C1C9421E9367B20080755F /* EventView.m */,
+				61C1C9431E9367B20080755F /* EventView.xib */,
+				61C1C9441E9367B20080755F /* Place.h */,
+				61C1C9451E9367B20080755F /* Place.m */,
+				61C1C9461E9367B20080755F /* StageView.h */,
+				61C1C9471E9367B20080755F /* StageView.m */,
+				61C1C9481E9367B20080755F /* StageView.xib */,
+				61C1C9491E9367B20080755F /* TramView.h */,
+				61C1C94A1E9367B20080755F /* TramView.m */,
+				61C1C94B1E9367B20080755F /* TramView.xib */,
 			);
 			name = Event;
 			sourceTree = "<group>";
@@ -364,13 +364,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61AD92B91E8D850200D8665C /* DateView.xib in Resources */,
 				61631F211E8B09E000DDAC47 /* LaunchScreen.storyboard in Resources */,
+				61C1C9511E9367B20080755F /* EventView.xib in Resources */,
 				61631F1E1E8B09E000DDAC47 /* Assets.xcassets in Resources */,
+				61C1C9561E9367B20080755F /* TramView.xib in Resources */,
+				61C1C94D1E9367B20080755F /* DateView.xib in Resources */,
 				61631F191E8B09E000DDAC47 /* Main.storyboard in Resources */,
-				6174C02A1E8B325E008E0C97 /* EventView.xib in Resources */,
-				6174C0361E8C57D9008E0C97 /* TramView.xib in Resources */,
-				6174C03B1E8C5FB3008E0C97 /* StageView.xib in Resources */,
+				61C1C9541E9367B20080755F /* StageView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,17 +533,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61C1C94E1E9367B20080755F /* Event.m in Sources */,
+				61C1C9531E9367B20080755F /* StageView.m in Sources */,
 				61631F161E8B09E000DDAC47 /* ViewController.m in Sources */,
-				6174C03E1E8C5FBB008E0C97 /* StageView.m in Sources */,
-				6174C02D1E8B326A008E0C97 /* EventView.m in Sources */,
+				61C1C94C1E9367B20080755F /* DateView.m in Sources */,
+				61C1C9501E9367B20080755F /* EventView.m in Sources */,
 				61631F131E8B09E000DDAC47 /* AppDelegate.m in Sources */,
-				6174C0221E8B28A7008E0C97 /* Event.m in Sources */,
 				61631F1C1E8B09E000DDAC47 /* Timeline_Project.xcdatamodeld in Sources */,
-				6174C02F1E8B42BE008E0C97 /* EventManager.m in Sources */,
+				61C1C9521E9367B20080755F /* Place.m in Sources */,
+				61C1C94F1E9367B20080755F /* EventManager.m in Sources */,
 				61631F101E8B09E000DDAC47 /* main.m in Sources */,
-				6174C0331E8B4AE3008E0C97 /* Place.m in Sources */,
-				61AD92BC1E8D854500D8665C /* DateView.m in Sources */,
-				6174C0391E8C581C008E0C97 /* TramView.m in Sources */,
+				61C1C9551E9367B20080755F /* TramView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
