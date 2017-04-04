@@ -100,8 +100,6 @@ ViewController.h :
 @end
 ```
 
-Explain how to run the automated tests for this system
-
 ## Authors
 
 * **Nicolas Charvoz** - [charvoa](https://github.com/PurpleBooth)
